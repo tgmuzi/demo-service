@@ -21,6 +21,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class LoginServiceImpl extends ServiceImpl<SysUserTokenMapper, SysUserToken> implements LoginService {
@@ -112,5 +114,14 @@ public class LoginServiceImpl extends ServiceImpl<SysUserTokenMapper, SysUserTok
     @Override
     public SysUserToken queryByUserId(Long userId) {
         return sysUserTokenMapper.queryByUserId(userId);
+    }
+
+    @Override
+    public int updatePassword(Long userId, String password, String newPassword) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("userId", userId);
+        map.put("password", password);
+        map.put("newPassword", newPassword);
+        return sysUserMapper.updatePassword(map);
     }
 }

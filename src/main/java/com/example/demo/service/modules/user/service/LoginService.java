@@ -18,5 +18,12 @@ public interface LoginService {
 
     SysUserToken queryByUserId(Long userId);
 
+    /**
+     * 修改密码
+     * @param userId       用户ID
+     * @param password     原密码
+     * @param newPassword  新密码
+     */
+    int updatePassword(Long userId, String password, String newPassword);
     AjaxObject createToken(HttpServletRequest request, HttpServletResponse response, SysUser user);
 }
