@@ -1,6 +1,6 @@
 package com.example.demo.service.modules.user.service;
 
-import com.example.demo.modules.user.entity.Customer;
+import com.example.demo.modules.entity.user.entity.Customer;
 import com.example.demo.utils.Encrypt;
 import org.apache.ibatis.annotations.Param;
 

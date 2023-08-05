@@ -1,6 +1,6 @@
 package com.example.demo.service.modules.user.service;
 
-import com.example.demo.modules.user.entity.SysUser;
+import com.example.demo.modules.entity.user.entity.SysUser;
 
 public interface SysUserService {
 

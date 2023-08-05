@@ -2,8 +2,8 @@ package com.example.demo.service.modules.user.service.impl;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.example.demo.modules.user.CustomerMapper;
-import com.example.demo.modules.user.entity.Customer;
+import com.example.demo.modules.mapper.user.CustomerMapper;
+import com.example.demo.modules.entity.user.entity.Customer;
 import com.example.demo.service.modules.user.service.CustomerSrevice;
 import com.example.demo.utils.Encrypt;
 import org.springframework.beans.factory.annotation.Autowired;

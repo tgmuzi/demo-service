@@ -1,8 +1,8 @@
 package com.example.demo.service.modules.sys.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.example.demo.modules.sys.SysMenuMapper;
-import com.example.demo.modules.sys.entity.SysMenu;
+import com.example.demo.modules.mapper.sys.SysMenuMapper;
+import com.example.demo.modules.entity.sys.entity.SysMenu;
 import com.example.demo.service.modules.sys.service.ISysMenuService;
 import com.example.demo.utils.Constant.MenuType;
 import org.springframework.beans.factory.annotation.Autowired;

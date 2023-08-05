@@ -1,8 +1,8 @@
 package com.example.demo.service.modules.user.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.example.demo.modules.user.SysUserMapper;
-import com.example.demo.modules.user.entity.SysUser;
+import com.example.demo.modules.mapper.user.SysUserMapper;
+import com.example.demo.modules.entity.user.entity.SysUser;
 import com.example.demo.service.modules.user.service.SysUserService;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.shiro.crypto.hash.Sha256Hash;

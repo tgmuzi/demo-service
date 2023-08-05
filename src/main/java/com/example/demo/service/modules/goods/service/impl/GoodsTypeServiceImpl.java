@@ -1,8 +1,8 @@
 package com.example.demo.service.modules.goods.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.example.demo.modules.goods.entity.GoodsType;
-import com.example.demo.modules.goods.mapper.GoodsTypeMapper;
+import com.example.demo.modules.entity.goods.entity.GoodsType;
+import com.example.demo.modules.mapper.goods.mapper.GoodsTypeMapper;
 import com.example.demo.service.modules.goods.service.IGoodsTypeService;
 import org.springframework.stereotype.Service;
 

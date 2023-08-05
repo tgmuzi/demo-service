@@ -1,10 +1,10 @@
 package com.example.demo.service.modules.user.service.impl;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.example.demo.modules.user.SysUserMapper;
-import com.example.demo.modules.user.SysUserTokenMapper;
-import com.example.demo.modules.user.entity.SysUser;
-import com.example.demo.modules.user.entity.SysUserToken;
+import com.example.demo.modules.mapper.user.SysUserMapper;
+import com.example.demo.modules.mapper.user.SysUserTokenMapper;
+import com.example.demo.modules.entity.user.entity.SysUser;
+import com.example.demo.modules.entity.user.entity.SysUserToken;
 import com.example.demo.service.modules.user.service.LoginService;
 import com.example.demo.utils.AjaxObject;
 import com.example.demo.utils.TokenGenerator;

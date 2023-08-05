@@ -1,8 +1,8 @@
 package com.example.demo.service.modules.excel.impl;
 
 import com.example.demo.modules.excel.ExcelData;
-import com.example.demo.modules.sys.SysMenuMapper;
-import com.example.demo.modules.sys.entity.SysMenu;
+import com.example.demo.modules.mapper.sys.SysMenuMapper;
+import com.example.demo.modules.entity.sys.entity.SysMenu;
 import com.example.demo.service.modules.excel.ExcelService;
 import com.example.demo.utils.ExcelUtil;
 import lombok.extern.slf4j.Slf4j;

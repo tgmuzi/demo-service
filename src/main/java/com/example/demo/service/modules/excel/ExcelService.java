@@ -1,6 +1,6 @@
 package com.example.demo.service.modules.excel;
 
-import com.example.demo.modules.sys.entity.SysMenu;
+import com.example.demo.modules.entity.sys.entity.SysMenu;
 
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;

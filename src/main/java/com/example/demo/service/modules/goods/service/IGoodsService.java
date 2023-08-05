@@ -1,7 +1,7 @@
 package com.example.demo.service.modules.goods.service;
 
 import com.baomidou.mybatisplus.service.IService;
-import com.example.demo.modules.goods.entity.Goods;
+import com.example.demo.modules.entity.goods.entity.Goods;
 
 /**
  * <p>
